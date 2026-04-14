@@ -90,7 +90,7 @@ int main() {     //calling the function to check output values
     float target = 5.0f;
     float max_vel = 2.0f;
     float max_accel = 4.0f;
-    const int total_calls = 2000;
+    const int total_calls = 5000;
 
     for (int i = 0; i < total_calls; ++i) {
         update_joint_position(target, max_vel, max_accel);
